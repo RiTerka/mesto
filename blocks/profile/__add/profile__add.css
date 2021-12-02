@@ -1,0 +1,29 @@
+.profile__add{
+    background: url(../../../images/add.png) ;
+    height: 50px;
+    border:0;
+    background-color: black;
+    background-repeat: no-repeat;
+    width: 150px;
+    padding: 0;
+    margin:  auto 0 auto auto;
+    cursor: pointer;
+    border: 2px solid #fff;
+    background-position: center;
+}
+
+
+
+
+.profile__add:hover{
+    opacity: 0.8;  
+    background-color: black;
+}
+
+@media screen and (max-width: 800px){
+    .profile__add{
+        width: 282px;
+        margin: 32px auto 0;
+        padding-top: 32px;
+    }
+}

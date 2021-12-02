@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/index.css">
+    <title>Document</title>
+</head>
+
+<body class="body">
+    <div class="page">
+        <header class="header">
+            <a href="#"><img class="header__logo" src="./images/logo.svg" alt="Логотип"></a>
+        </header>
+        <main class="content">
+            <section class="profile">
+                <img class="profile__avatar" src="./images/image.jpg" alt="Аватарка">
+                <div class="profile__info">
+                    <a href="#" id="editBtn" class="profile__edit"></a>
+                    <p class="profile__text-name">Жак-Ив Кусто</p>
+                    <p class="profile__text-info">Исследователь океана</p>
+                </div>
+                <button class="profile__add"></button>
+            </section>
+            <section class="elements">
+                <div class="elememt">
+                    <img class="elememt__img" src="./images/kirill-pershin-1088404-unsplash(2).jpg" alt="Карачаевск">
+                    <p class="elememt__text">Карачаевск</p>
+                    <button class="element__like"></button>
+                </div>
+                <div class="elememt">
+                    <img class="elememt__img" src="./images/kirill-pershin-1404681-unsplash(1).jpg" alt="Гора Эльбрус">
+                    <p class="elememt__text">Гора Эльбрус</p>
+                    <button class="element__like"></button>
+                </div>
+                <div class="elememt">
+                    <img class="elememt__img" src="./images/kirill-pershin-1556355-unsplash.jpg" alt="Домбай">
+                    <p class="elememt__text">Домбай</p>
+                    <button class="element__like"></button>
+                </div>
+                <div class="elememt">
+                    <img class="elememt__img" src="./images/kirill-pershin-1404681-unsplash(1).jpg" alt="Домбай">
+                    <p class="elememt__text">Домбай</p>
+                    <button class="element__like"></button>
+                </div>
+                <div class="elememt">
+                    <img class="elememt__img" src="./images/kirill-pershin-1088404-unsplash(2).jpg" alt="Гора Эльбрус">
+                    <p class="elememt__text">Гора Эльбрус</p>
+                    <button class="element__like"></button>
+                </div>
+                <div class="elememt">
+                    <img class="elememt__img" src="./images/kirill-pershin-1556355-unsplash.jpg" alt="Карачаевск">
+                    <p class="elememt__text">Карачаевск</p>
+                    <button class="element__like"></button>
+                </div>
+            </section>
+            <footer class="footer">
+                <p class="footer__copyriting">&copy; 2020 Mesto Russia</p>
+            </footer>
+            <div class="modal ">
+                <div id="modal" class="modal__inner modal_active">
+                    <h2 class="modal__text"> Редактировать профиль</h2>
+                    <form class="form" action="#" method="get">
+                        <fieldset class="form__input-container">
+                            <input type="text" tabindex="1" name="username" class="form__contact-info"
+                                value="Жак-Ив Кусто">
+                            <input type="text" tabindex="1" class="form__delivery-info" value="Исследователь океана">
+                            <div><button type="submit" tabindex="1" class="form__save-btn"> Cохранить</button></div>
+                        </fieldset>
+                    </form>
+                    <a id="closeBtn" href="#" class="modal__close-btn"></a>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="./scripts/scripts.js"></script>
+</body>
+
+</html>

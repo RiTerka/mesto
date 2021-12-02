@@ -1,0 +1,11 @@
+.elememt{
+    max-width: 282px;
+    background-color: white;
+    border-radius: 10px 10px;
+    display: grid;
+    grid-template-areas: 
+    "img img"
+    "text like";
+    align-items: center;
+}
+

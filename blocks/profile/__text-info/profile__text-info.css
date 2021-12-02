@@ -1,0 +1,17 @@
+.profile__text-info{
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+    grid-area: info;
+    margin: 0;
+    max-width: 300px;
+}
+
+@media screen and (max-width: 800px){
+    .profile__text-info{
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+}
+}
+

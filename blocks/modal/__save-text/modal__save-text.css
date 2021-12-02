@@ -1,0 +1,12 @@
+.modal__save-text{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    z-index: 1;
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 14px;
+    padding-bottom: 18px;
+}
