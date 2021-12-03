@@ -1,14 +1,24 @@
 .profile__edit{
-    background: url(../../../images/EditButton.png);
+    background: url(../../../images/edit.png);
     border:0;
     max-width: 24px;
     width: 100%;
     height: 24px;
     grid-area: edit;
     cursor: pointer;
+    margin-bottom: 12px;
+    background-repeat: no-repeat;
+    border: 1px solid #fff;
+    background-position: center;
 }
 
 .profile__edit:hover{
     opacity: 0.8;
     background-color: black;
+}
+
+@media screen and (max-width: 800px){
+    .profile__edit{
+        height: 18px;
+    }
 }
