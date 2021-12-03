@@ -10,3 +10,9 @@
     justify-content: center;
 }
 
+@media screen and (max-width: 320px){
+    .element__items{
+        padding-bottom: 67px;
+    }
+}
+
