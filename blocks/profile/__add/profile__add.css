@@ -1,5 +1,5 @@
 .profile__add{
-    background: url(../../../images/add.png) ;
+    background: url(../../../images/add.png);
     height: 50px;
     border:0;
     background-color: black;
@@ -12,18 +12,15 @@
     background-position: center;
 }
 
-
-
-
 .profile__add:hover{
-    opacity: 0.8;  
+    opacity: 0.8;
     background-color: black;
 }
 
 @media screen and (max-width: 800px){
     .profile__add{
         width: 282px;
-        margin: 0 auto ;
+        margin: 0 auto;
         padding-top: 32px;
     }
 }
