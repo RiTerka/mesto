@@ -1,0 +1,8 @@
+.elememt__item{
+    max-width: 282px;
+    background-color: white;
+    border-radius: 10px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
