@@ -13,11 +13,12 @@
 
 @media screen and (max-width: 800px){
     .profile__info{
-        row-gap: 14px;
+        row-gap: 1px;
         column-gap: 10px;
-        grid-template-columns: 200px 50px;
+        grid-template-columns: 200px 5px;
         padding-left: 0;
-        padding-bottom: 36px;
-        padding-top: 20px;
+        padding-bottom: 27px;
+        padding-top: 17px;
+        align-items: center;
     }
 }
