@@ -1,11 +1,11 @@
 .profile__info {
-    height: 73px;    
+    height: 73px;
     padding-left: 30px;
     display: grid;
     grid-template-areas: 
     "name edit"
     "info info";
-    grid-template-columns: 300px 50px ;
+    grid-template-columns: 300px 50px;
     column-gap: 18px;
     row-gap: 16px;
     align-items: end;

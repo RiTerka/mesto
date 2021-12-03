@@ -1,12 +1,11 @@
 .profile__add{
     background: url(../../../images/add.png);
     height: 50px;
-    border:0;
     background-color: black;
     background-repeat: no-repeat;
     width: 150px;
     padding: 0;
-    margin:  auto 0 auto auto;
+    margin: auto 0 auto auto;
     cursor: pointer;
     border: 2px solid #fff;
     background-position: center;
