@@ -1,24 +1,11 @@
 .profile__info {
-    height: 73px;
-    padding-left: 30px;
-    display: grid;
-    grid-template-areas: 
-    "name edit"
-    "info info";
-    grid-template-columns: 300px 50px;
-    column-gap: 18px;
-    row-gap: 5px;
-    align-items: end;
+    margin-left: 30px;
+    color: white;
+    max-width: 336px;
 }
 
-@media screen and (max-width: 800px){
-    .profile__info{
-        row-gap: 1px;
-        column-gap: 10px;
-        grid-template-columns: 200px 5px;
-        padding-left: 0;
-        padding-bottom: 27px;
-        padding-top: 17px;
-        align-items: center;
+@media screen and (max-width: 800px) {
+    .profile__info {
+      margin-left: 0;
     }
-}
+  }

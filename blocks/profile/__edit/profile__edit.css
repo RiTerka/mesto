@@ -1,9 +1,7 @@
 .profile__edit{
     background: url(../../../images/edit.png);
-    max-width: 24px;
-    width: 100%;
+    width: 24px;
     height: 24px;
-    grid-area: edit;
     cursor: pointer;
     margin-bottom: 12px;
     background-repeat: no-repeat;
