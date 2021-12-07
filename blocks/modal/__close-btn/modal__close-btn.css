@@ -6,10 +6,20 @@
     right: -40px;
     top: -40px;
     color: white;
+    background-size: cover;
 }
 
 
 .modal__close-btn:hover{
-    opacity: 0.8;
+    opacity: 0.6;
     color: #2A2C2F; 
+}
+
+@media screen and (max-width: 530px){
+    .modal__close-btn{
+        width: 20px;
+        height: 20px;
+        top: -36px;
+        right: 0;
+}
 }

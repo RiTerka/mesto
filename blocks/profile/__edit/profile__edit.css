@@ -1,5 +1,5 @@
 .profile__edit{
-    background: url(../../../images/edit.png);
+    background: url(../../../images/edit.svg);
     width: 24px;
     height: 24px;
     cursor: pointer;
@@ -10,7 +10,7 @@
 }
 
 .profile__edit:hover{
-    opacity: 0.8;
+    opacity: 0.6;
     background-color: black;
 }
 

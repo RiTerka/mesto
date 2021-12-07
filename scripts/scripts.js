@@ -1,32 +1,33 @@
-let anchor = document.querySelector(".profile__edit");
+let profileButtonEdit = document.querySelector(".profile__edit");
 let modal = document.querySelector(".modal");
 let closeBtn = document.querySelector(".modal__close-btn");
 let formElement = document.querySelector(".form");
-let nameInput = document.querySelector(".form__contact-info");
-let jobInput = document.querySelector(".form__delivery-info");
+let inputName = document.querySelector(".form__contact-info");
+let inputInfo = document.querySelector(".form__delivery-info");
+let profileName = document.querySelector(".profile__text-name");
+let profileInfo = document.querySelector(".profile__text-info");
 
 
 function openFrom() {
     modal.classList.add("modal_active");
-    document.body.classList.add("body_hidden");
+    inputName.value = profileName.textContent;
+    inputInfo.value = profileInfo.textContent;
 }
 
 function closeFrom() {
     modal.classList.remove("modal_active");
-    document.body.classList.remove("body_hidden");
+
 }
 
-anchor.addEventListener("click", openFrom);
+profileButtonEdit.addEventListener("click", openFrom);
 closeBtn.addEventListener("click", closeFrom);
 
 function formSubmitHandler(evt) {
     evt.preventDefault();
 
-    let name = document.querySelector(".profile__text-name");
-    let info = document.querySelector(".profile__text-info");
+    profileName.textContent = inputName.value;
+    profileInfo.textContent = inputInfo.value;
 
-    name.textContent = nameInput.value;
-    info.textContent = jobInput.value;
     closeFrom()
 }
 

@@ -13,9 +13,17 @@
     line-height: 22px;
     cursor: pointer;
     position: relative;
+    border-radius: 2px;
 }
 
 .form__save-btn:hover{
     opacity: 0.8;
     background-color: black;
 }
+
+@media screen and (max-width: 530px) {
+    .form__save-btn {
+        font-size: 14px;
+        line-height: 17px;
+    }
+  }

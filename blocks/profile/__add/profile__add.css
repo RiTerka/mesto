@@ -1,5 +1,5 @@
 .profile__add{
-    background: url(../../../images/add.png);
+    background: url(../../../images/plus.svg);
     height: 50px;
     background-color: black;
     background-repeat: no-repeat;
@@ -9,10 +9,11 @@
     cursor: pointer;
     border: 2px solid #fff;
     background-position: center;
+    border-radius: 2px;
 }
 
 .profile__add:hover{
-    opacity: 0.8;
+    opacity: 0.6;
     background-color: black;
 }
 
@@ -20,5 +21,6 @@
     .profile__add{
         width: 282px;
         margin: 32px auto 0;
+        background-size: 16px 16px;
     }
 }
