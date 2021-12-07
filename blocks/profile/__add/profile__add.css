@@ -10,6 +10,7 @@
     border: 2px solid #fff;
     background-position: center;
     border-radius: 2px;
+    background-size: 22px 22px;
 }
 
 .profile__add:hover{
