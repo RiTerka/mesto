@@ -27,8 +27,7 @@
 @import url(../blocks/modal/__text/modal__text.css);
 @import url(../blocks/modal/__inner/modal__inner.css);
 @import url(../blocks/form/__input-container/form__input-container.css);
-@import url(../blocks/form/__contact-info/form__contact-info.css);
-@import url(../blocks/form/__delivery-info/form__delivery-info.css);
+@import url(../blocks/form/__input/form__input.css);
 @import url(../blocks/form/__save-btn/form__save-btn.css);
 @import url(../blocks/modal/__close-btn/modal__close-btn.css);
 @import url(../blocks/modal/__save-text/modal__save-text.css);

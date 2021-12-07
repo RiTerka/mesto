@@ -2,8 +2,8 @@ let profileButtonEdit = document.querySelector(".profile__edit");
 let modal = document.querySelector(".modal");
 let closeBtn = document.querySelector(".modal__close-btn");
 let formElement = document.querySelector(".form");
-let inputName = document.querySelector(".form__contact-info");
-let inputInfo = document.querySelector(".form__delivery-info");
+let inputName = document.querySelector(".form__input_name_edit");
+let inputInfo = document.querySelector(".form__input_info_edit");
 let profileName = document.querySelector(".profile__text-name");
 let profileInfo = document.querySelector(".profile__text-info");
 

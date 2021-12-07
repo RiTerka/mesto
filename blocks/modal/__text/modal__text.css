@@ -5,7 +5,7 @@
     padding-top: 34px;
     padding-left: 36px;
     color: black;
-    margin-bottom: 0;
+    margin-bottom: 54px;
     margin-top: 0;
 }
 
@@ -13,5 +13,6 @@
     .modal__text{
         font-size: 18px;
         line-height: 22px;
+        padding-left: 22px
     }
 }

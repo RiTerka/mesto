@@ -1,6 +1,5 @@
-.form__delivery-info {
+.form__input{
     max-width: 358px;
-    margin: 0 auto 48px auto;
     width: 100%;
     font-size: 14px;
     line-height: 17px;
@@ -8,11 +7,6 @@
     border-top: 0;
     border-left: 0;
     border-right: 0;
-    padding-bottom: 13px;
-}
-
-@media screen and (max-width: 530px){
-    .form__delivery-info{
-        margin: 0 auto 45px auto;
-    }
+    margin-bottom: 30px;
+    padding-bottom: 8px;
 }
