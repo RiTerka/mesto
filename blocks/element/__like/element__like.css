@@ -15,3 +15,6 @@
     background-image: url(../../../images/Union.svg);
 }
 
+.element__like:hover {
+    opacity: .5;
+  }
