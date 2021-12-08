@@ -14,9 +14,3 @@
     margin: auto;
 }
 
-@media screen and (max-width: 530px){
-    .modal{
-        padding-top: 123px;
-        
-    }
-}
