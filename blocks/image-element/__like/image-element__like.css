@@ -1,0 +1,14 @@
+.image-element__like {
+        width: 22px;
+        height: 19px;
+        margin: 5px 5px 0 auto;
+        padding: 0;
+        background: url(../../../images/Vector.svg); 
+        outline: none;
+        border: none;
+        cursor: pointer;
+      }
+      
+      .image-element__like:hover {
+        opacity: .5;
+      }

@@ -1,0 +1,7 @@
+.image-element__label{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    padding: 25px 15px 26px 21px;
+    background-color: #fff;
+}

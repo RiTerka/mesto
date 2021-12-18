@@ -27,59 +27,13 @@
                 <button class="profile__add" type="button"></button>
             </section>
             <section class="element">
-                <ul class="element__items">
-                    <li class="element__item">
-                        <img class="element__img" src="./images/kirill-pershin-1088404-unsplash(2).jpg"
-                            alt="Карачаевск">
-                        <div class="element__lable">
-                            <h2 class="element__text">Карачаевск</h2>
-                            <button class="element__like" type="button"></button>
-                        </div>
-                    </li>
-                    <li class="element__item">
-                        <img class=" element__img" src="./images/kirill-pershin-1404681-unsplash(1).jpg"
-                            alt="Гора Эльбрус">
-                        <div class="element__lable">
-                            <h2 class="element__text">Гора Эльбрус</h2>
-                            <button class="element__like" type="button"></button>
-                        </div>
-                    </li>
-                    <li class="element__item">
-                        <img class=" element__img" src="./images/kirill-pershin-1556355-unsplash.jpg" alt="Домбай">
-                        <div class="element__lable">
-                            <h2 class="element__text">Домбай</h2>
-                            <button class="element__like" type="button"></button>
-                        </div>
-                    </li>
-                    <li class="element__item">
-                        <img class=" element__img" src="./images/kirill-pershin-1404681-unsplash(1).jpg" alt="Домбай">
-                        <div class="element__lable">
-                            <h2 class="element__text">Домбай</h2>
-                            <button class="element__like" type="button"></button>
-                        </div>
-                    </li>
-                    <li class="element__item">
-                        <img class=" element__img" src="./images/kirill-pershin-1088404-unsplash(2).jpg"
-                            alt="Гора Эльбрус">
-                        <div class="element__lable">
-                            <h2 class="element__text">Гора Эльбрус</h2>
-                            <button class="element__like" type="button"></button>
-                        </div>
-                    </li>
-                    <li class="element__item">
-                        <img class=" element__img" src="./images/kirill-pershin-1556355-unsplash.jpg" alt="Карачаевск">
-                        <div class="element__lable">
-                            <h2 class="element__text">Карачаевск</h2>
-                            <button class="element__like" type="button"></button>
-                        </div>
-                    </li>
-                </ul>
+                <ul class="element__items"> </ul>
             </section>
             <footer class="footer">
                 <p class="footer__copyriting">&copy; 2020 Mesto Russia</p>
             </footer>
-            <div class="modal">
-                <div id="modal" class="modal__inner">
+            <div class="modal modal-profile">
+                <div class="modal__inner">
                     <h2 class="modal__text"> Редактировать профиль</h2>
                     <form class="form" action="#" method="get" name="edit_form">
                         <fieldset class="form__input-container">
@@ -93,6 +47,37 @@
                     <button class="modal__close-btn" type="button"></button>
                 </div>
             </div>
+            <div class="modal modal-add">
+                <div id="modal" class="modal__inner">
+                    <h2 class="modal__text"> Новое место</h2>
+                    <form class="form" name="add-img">
+                        <input type="text" tabindex="1" name="username" class="form__input form__input_title_edit"
+                            placeholder="Название">
+                        <input type="text" tabindex="1" class="form__input form__input_img_link" placeholder="Название">
+                        <button type="submit" tabindex="1" class="form__save-btn"> Создать</button>
+                    </form>
+                    <button class="modal__close-btn" type="button"></button>
+                </div>
+            </div>
+            <div class="modal modal-img">
+                <div class="modal__image-cont">
+                    <figure class="modal__figure">
+                        <img class="modal__img" src="#" alt="#">
+                        <figcaption class="modal__img-title"></figcaption>
+                    </figure>
+                    <button class="modal__close-btn" type="button"></button>
+                </div>
+            </div>
+            <template id="image-element-template">
+                <li class="image-element">
+                    <img class="image-element__pic" src="#" alt="#">
+                    <button class="image-element__delete"></button>
+                    <div class="image-element__label">
+                        <h2 class="image-element__title"></h2>
+                        <button class="image-element__like" type="button" aria-label="Нравится"></button>
+                    </div>
+                </li>
+            </template>
         </main>
     </div>
     <script src="./scripts/scripts.js"></script>
