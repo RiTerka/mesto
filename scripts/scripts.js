@@ -10,6 +10,8 @@ const imgTitle = document.querySelector('.form__input_title_edit');
 const imgLink = document.querySelector('.form__input_img_link');
 const profileTitle = document.querySelector('.profile__text-name');
 const profileSubtitle = document.querySelector('.profile__text-info');
+const figurePicture = document.querySelector('.modal__img');
+const figureTitle = document.querySelector('.modal__img-title');
 const imgList = document.querySelector('.element__items');
 
 
@@ -68,8 +70,6 @@ function createCard(elem) {
         evt.target.closest('.image-element').remove();
     });
     function openImgModal() {
-        const figurePicture = document.querySelector('.modal__img');
-        const figureTitle = document.querySelector('.modal__img-title');
         figurePicture.src = imgElemLink.src;
         figurePicture.alt = imgElemTitle.textContent;
         figureTitle.textContent = imgElemTitle.textContent;
